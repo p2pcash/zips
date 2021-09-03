@@ -25,15 +25,15 @@ License: MIT
 Discussions-To: &lt;<a href="https://forum.zcashcommunity.com/t/community-sentiment-polling-results-nu4-and-draft-zip-1014/35560">https://forum.zcashcommunity.com/t/community-sentiment-polling-results-nu4-and-draft-zip-1014/35560</a>&gt;
 Pull-Request: &lt;<a href="https://github.com/zcash/zips/pull/308">https://github.com/zcash/zips/pull/308</a>&gt;</pre>
         <section id="terminology"><h2><span class="section-heading">Terminology</span><span class="section-anchor"> <a rel="bookmark" href="#terminology"><img width="24" height="24" src="assets/images/section-anchor.png" alt=""></a></span></h2>
-            <p>The key words "MUST", "MUST NOT", "SHALL", "SHALL NOT", "SHOULD", and "MAY" in this document are to be interpreted as described in RFC 2119. <a id="id1" class="footnote_reference" href="#rfc2119">1</a></p>
-            <p>The term "network upgrade" in this document is to be interpreted as described in ZIP 200 <a id="id2" class="footnote_reference" href="#zip-0200">6</a> and the Zcash Trademark Donation and License Agreement (<a id="id3" class="footnote_reference" href="#trademark">4</a> or successor agreement).</p>
-            <p>The terms "block subsidy" and "halving" in this document are to be interpreted as described in sections 3.9 and 7.7 of the Zcash Protocol Specification. <a id="id4" class="footnote_reference" href="#protocol">2</a></p>
+            <p>The key words "MUST", "MUST NOT", "SHALL", "SHALL NOT", "SHOULD", and "MAY" in this document are to be interpreted as described in RFC 2119. <a class="footnote_reference" id="id1" href="#rfc2119">1</a></p>
+            <p>The term "network upgrade" in this document is to be interpreted as described in ZIP 200 <a class="footnote_reference" id="id2" href="#zip-0200">6</a> and the Zcash Trademark Donation and License Agreement (<a class="footnote_reference" id="id3" href="#trademark">4</a> or successor agreement).</p>
+            <p>The terms "block subsidy" and "halving" in this document are to be interpreted as described in sections 3.9 and 7.7 of the Zcash Protocol Specification. <a class="footnote_reference" id="id4" href="#protocol">2</a></p>
             <p>"Electric Coin Company", also called "ECC", refers to the Zerocoin Electric Coin Company, LLC.</p>
             <p>"Bootstrap Project", also called "BP", refers to the 501(c)(3) nonprofit corporation of that name.</p>
             <p>"Zcash Foundation", also called "ZF", refers to the 501(c)(3) nonprofit corporation of that name.</p>
-            <p>"Section 501(c)(3)" refers to that section of the U.S. Internal Revenue Code (Title 26 of the U.S. Code). <a id="id5" class="footnote_reference" href="#section501c3">12</a></p>
-            <p>"Community Advisory Panel" refers to the panel of community members assembled by the Zcash Foundation and described at <a id="id6" class="footnote_reference" href="#zf-community">11</a>.</p>
-            <p>The terms "Testnet" and "Mainnet" are to be interpreted as described in section 3.11 of the Zcash Protocol Specification <a id="id7" class="footnote_reference" href="#protocol-networks">3</a>.</p>
+            <p>"Section 501(c)(3)" refers to that section of the U.S. Internal Revenue Code (Title 26 of the U.S. Code). <a class="footnote_reference" id="id5" href="#section501c3">12</a></p>
+            <p>"Community Advisory Panel" refers to the panel of community members assembled by the Zcash Foundation and described at <a class="footnote_reference" id="id6" href="#zf-community">11</a>.</p>
+            <p>The terms "Testnet" and "Mainnet" are to be interpreted as described in section 3.11 of the Zcash Protocol Specification <a class="footnote_reference" id="id7" href="#protocol-networks">3</a>.</p>
         </section>
         <section id="abstract"><h2><span class="section-heading">Abstract</span><span class="section-anchor"> <a rel="bookmark" href="#abstract"><img width="24" height="24" src="assets/images/section-anchor.png" alt=""></a></span></h2>
             <p>This proposal describes a structure for the Zcash Development Fund, to be enacted in Network Upgrade 4 and last for 4 years. This Dev Fund would consist of 20% of the block subsidies, split into 3 slices:</p>
@@ -119,7 +119,7 @@ Pull-Request: &lt;<a href="https://github.com/zcash/zips/pull/308">https://githu
                     </ul>
                     <p>BP, ECC, ZF, and grant recipients MUST promptly disclose any security or privacy risks that may affect users of Zcash (by responsible disclosure under confidence to the pertinent developers, where applicable).</p>
                     <p>BP's reports, ECC's reports, and ZF's annual report on its non-grant operations, SHOULD be at least as detailed as grant proposals/reports submitted by other funded parties, and satisfy similar levels of public scrutiny.</p>
-                    <p>All substantial software whose development was funded by the Dev Fund SHOULD be released under an Open Source license (as defined by the Open Source Initiative <a id="id8" class="footnote_reference" href="#osd">5</a>), preferably the MIT license.</p>
+                    <p>All substantial software whose development was funded by the Dev Fund SHOULD be released under an Open Source license (as defined by the Open Source Initiative <a class="footnote_reference" id="id8" href="#osd">5</a>), preferably the MIT license.</p>
                 </section>
                 <section id="enforcement"><h4><span class="section-heading">Enforcement</span><span class="section-anchor"> <a rel="bookmark" href="#enforcement"><img width="24" height="24" src="assets/images/section-anchor.png" alt=""></a></span></h4>
                     <p>For grant recipients, these conditions SHOULD be included in their contract with ZF, such that substantial violation, not promptly remedied, will cause forfeiture of their grant funds and their return to ZF.</p>
@@ -135,14 +135,39 @@ Pull-Request: &lt;<a href="https://github.com/zcash/zips/pull/308">https://githu
                 <p>Grace period: members of the ZF board who hold ECC equity (but do not have other current relationships to ECC) may dispose of their equity, or quit the Board, by 1 November 2021. (The grace period is to allow for orderly replacement, and also to allow time for ECC corporate reorganization related to Dev Fund receipt, which may affect how disposition of equity would be executed.)</p>
                 <p>The Zcash Foundation SHOULD endeavor to use the Community Advisory Panel (or successor mechanism) as advisory input for future board elections.</p>
             </section>
+            <section id="community-advisory-panel-membership-governance"><h3><span class="section-heading">Community Advisory Panel Membership Governance</span><span class="section-anchor"> <a rel="bookmark" href="#community-advisory-panel-membership-governance"><img width="24" height="24" src="assets/images/section-anchor.png" alt=""></a></span></h3>
+                <p>The ZCAP must have a mechanism to defend itself against members acting in bad faith towards the Zcash project and its community.</p>
+                <p>If a ZCAP member is suspended from the <a href="https://forum.zcashcommunity.com/">Zcash Community Forum</a> for a violation of the Zcash Community Code of Conduct (CoC), that member shall be immediately expelled from the ZCAP.</p>
+                <p>If a ZCAP member is found to be hostile or act in unconstructive behavior toward the Zcash project, this 3 steps procedure must be followed :</p>
+                <section id="community-petition"><h4><span class="section-heading">Community Petition</span><span class="section-anchor"> <a rel="bookmark" href="#community-petition"><img width="24" height="24" src="assets/images/section-anchor.png" alt=""></a></span></h4>
+                    <ul>
+                        <li>Create a post in the <a href="https://forum.zcashcommunity.com/">Zcash Community Forum</a> to recommend a ZCAP member be expelled from ZCAP for hostile or unconstructive behavior.</li>
+                        <li>Provide support (e.g. tweets, forum posts, etc.) that demonstrates the member has persistently acted in a hostile or unconstructive manner.</li>
+                        <li>Encourage feedback from community members</li>
+                    </ul>
+                </section>
+                <section id="review-process"><h4><span class="section-heading">Review Process</span><span class="section-anchor"> <a rel="bookmark" href="#review-process"><img width="24" height="24" src="assets/images/section-anchor.png" alt=""></a></span></h4>
+                    <ul>
+                        <li>The petition will be reviewed by the ZF Executive Director (ED) or their delegate to determine whether to reject or accept the petition based on the allegations made, support provided, and community input. Note: The ED or their delegate are not deciding whether the member should or should not be expelled, but whether or not the allegations and support warrant the ZCAP being polled.</li>
+                        <li>Reject – The ED or their delegate will briefly explain their reasoning for rejecting the petition in the relevant ZCF thread.</li>
+                        <li>Accept – Whether or not to remove the member will be an item in the next scheduled ZCAP poll.</li>
+                    </ul>
+                </section>
+                <section id="voting-process"><h4><span class="section-heading">Voting Process</span><span class="section-anchor"> <a rel="bookmark" href="#voting-process"><img width="24" height="24" src="assets/images/section-anchor.png" alt=""></a></span></h4>
+                    <ul>
+                        <li>Three choices: (1) Approve, (2) Reject, (3) Abstain</li>
+                        <li>If “Approve” receives more than half of all votes, the member is removed from ZCAP</li>
+                    </ul>
+                </section>
+            </section>
         </section>
         <section id="acknowledgements"><h2><span class="section-heading">Acknowledgements</span><span class="section-anchor"> <a rel="bookmark" href="#acknowledgements"><img width="24" height="24" src="assets/images/section-anchor.png" alt=""></a></span></h2>
-            <p>This proposal is a limited modification of Eran Tromer's ZIP 1012 <a id="id9" class="footnote_reference" href="#zip-1012">10</a> by the Zcash Foundation, the ECC, further modified by feedback from the community and the results of the <a href="https://vote.heliosvoting.org/helios/elections/43b9bec8-39a1-11ea-914c-b6e34ffa859a/view">latest Helios poll</a>.</p>
-            <p>Eran's proposal is most closely based on the Matt Luongo 'Decentralize the Dev Fee' proposal (ZIP 1011) <a id="id10" class="footnote_reference" href="#zip-1011">9</a>. Relative to ZIP 1011 there are substantial changes and mixing in of elements from <em>@aristarchus</em>'s '20% Split Evenly Between the ECC and the Zcash Foundation' (ZIP 1003) <a id="id11" class="footnote_reference" href="#zip-1003">7</a>, Josh Cincinnati's 'Compromise Dev Fund Proposal With Diverse Funding Streams' (ZIP 1010) <a id="id12" class="footnote_reference" href="#zip-1010">8</a>, and extensive discussions in the <a href="https://forum.zcashcommunity.com/">Zcash Community Forum</a>.</p>
+            <p>This proposal is a limited modification of Eran Tromer's ZIP 1012 <a class="footnote_reference" id="id9" href="#zip-1012">10</a> by the Zcash Foundation, the ECC, further modified by feedback from the community and the results of the <a href="https://vote.heliosvoting.org/helios/elections/43b9bec8-39a1-11ea-914c-b6e34ffa859a/view">latest Helios poll</a>.</p>
+            <p>Eran's proposal is most closely based on the Matt Luongo 'Decentralize the Dev Fee' proposal (ZIP 1011) <a class="footnote_reference" id="id10" href="#zip-1011">9</a>. Relative to ZIP 1011 there are substantial changes and mixing in of elements from <em>@aristarchus</em>'s '20% Split Evenly Between the ECC and the Zcash Foundation' (ZIP 1003) <a class="footnote_reference" id="id11" href="#zip-1003">7</a>, Josh Cincinnati's 'Compromise Dev Fund Proposal With Diverse Funding Streams' (ZIP 1010) <a class="footnote_reference" id="id12" href="#zip-1010">8</a>, and extensive discussions in the <a href="https://forum.zcashcommunity.com/">Zcash Community Forum</a>.</p>
             <p>The authors are grateful to all of the above for their excellent ideas and any insightful discussions, and to forum users <em>@aristarchus</em> and <em>@dontbeevil</em> for valuable initial comments on ZIP 1012.</p>
         </section>
         <section id="references"><h2><span class="section-heading">References</span><span class="section-anchor"> <a rel="bookmark" href="#references"><img width="24" height="24" src="assets/images/section-anchor.png" alt=""></a></span></h2>
-            <table id="rfc2119" class="footnote">
+            <table class="footnote" id="rfc2119">
                 <tbody>
                     <tr>
                         <th>1</th>
@@ -150,7 +175,7 @@ Pull-Request: &lt;<a href="https://github.com/zcash/zips/pull/308">https://githu
                     </tr>
                 </tbody>
             </table>
-            <table id="protocol" class="footnote">
+            <table class="footnote" id="protocol">
                 <tbody>
                     <tr>
                         <th>2</th>
@@ -158,7 +183,7 @@ Pull-Request: &lt;<a href="https://github.com/zcash/zips/pull/308">https://githu
                     </tr>
                 </tbody>
             </table>
-            <table id="protocol-networks" class="footnote">
+            <table class="footnote" id="protocol-networks">
                 <tbody>
                     <tr>
                         <th>3</th>
@@ -166,7 +191,7 @@ Pull-Request: &lt;<a href="https://github.com/zcash/zips/pull/308">https://githu
                     </tr>
                 </tbody>
             </table>
-            <table id="trademark" class="footnote">
+            <table class="footnote" id="trademark">
                 <tbody>
                     <tr>
                         <th>4</th>
@@ -174,7 +199,7 @@ Pull-Request: &lt;<a href="https://github.com/zcash/zips/pull/308">https://githu
                     </tr>
                 </tbody>
             </table>
-            <table id="osd" class="footnote">
+            <table class="footnote" id="osd">
                 <tbody>
                     <tr>
                         <th>5</th>
@@ -182,7 +207,7 @@ Pull-Request: &lt;<a href="https://github.com/zcash/zips/pull/308">https://githu
                     </tr>
                 </tbody>
             </table>
-            <table id="zip-0200" class="footnote">
+            <table class="footnote" id="zip-0200">
                 <tbody>
                     <tr>
                         <th>6</th>
@@ -190,7 +215,7 @@ Pull-Request: &lt;<a href="https://github.com/zcash/zips/pull/308">https://githu
                     </tr>
                 </tbody>
             </table>
-            <table id="zip-1003" class="footnote">
+            <table class="footnote" id="zip-1003">
                 <tbody>
                     <tr>
                         <th>7</th>
@@ -198,7 +223,7 @@ Pull-Request: &lt;<a href="https://github.com/zcash/zips/pull/308">https://githu
                     </tr>
                 </tbody>
             </table>
-            <table id="zip-1010" class="footnote">
+            <table class="footnote" id="zip-1010">
                 <tbody>
                     <tr>
                         <th>8</th>
@@ -206,7 +231,7 @@ Pull-Request: &lt;<a href="https://github.com/zcash/zips/pull/308">https://githu
                     </tr>
                 </tbody>
             </table>
-            <table id="zip-1011" class="footnote">
+            <table class="footnote" id="zip-1011">
                 <tbody>
                     <tr>
                         <th>9</th>
@@ -214,7 +239,7 @@ Pull-Request: &lt;<a href="https://github.com/zcash/zips/pull/308">https://githu
                     </tr>
                 </tbody>
             </table>
-            <table id="zip-1012" class="footnote">
+            <table class="footnote" id="zip-1012">
                 <tbody>
                     <tr>
                         <th>10</th>
@@ -222,7 +247,7 @@ Pull-Request: &lt;<a href="https://github.com/zcash/zips/pull/308">https://githu
                     </tr>
                 </tbody>
             </table>
-            <table id="zf-community" class="footnote">
+            <table class="footnote" id="zf-community">
                 <tbody>
                     <tr>
                         <th>11</th>
@@ -230,7 +255,7 @@ Pull-Request: &lt;<a href="https://github.com/zcash/zips/pull/308">https://githu
                     </tr>
                 </tbody>
             </table>
-            <table id="section501c3" class="footnote">
+            <table class="footnote" id="section501c3">
                 <tbody>
                     <tr>
                         <th>12</th>
